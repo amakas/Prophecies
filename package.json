@@ -1,0 +1,15 @@
+{
+  "name": "prophecy",
+  "version": "1.0.0",
+  "description": "prophecy web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prophecy"
+  ],
+  "author": "Maksym Yakovyuk",
+  "license": "ISC",
+  "type": "module"
+}

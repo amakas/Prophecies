@@ -1,0 +1,67 @@
+body {
+  background-image: url(./imgs/magical.png);
+}
+.categories-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 70%;
+  gap: 20px;
+}
+.categories {
+  width: 60%px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
+
+  gap: 30px;
+}
+.categories button {
+  height: 50px;
+  width: 200px;
+  background: linear-gradient(
+    45deg,
+    rgb(96, 7, 138),
+    rgb(63, 8, 146),
+    rgb(15, 73, 181),
+    rgb(100, 129, 225),
+    rgb(14, 7, 153),
+    rgb(114, 0, 167)
+  );
+  font-size: 1.1rem;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  color: rgb(114, 235, 195);
+}
+.hide {
+  display: none;
+}
+
+h2 {
+  font-style: italic;
+  color: rgb(76, 0, 255);
+  font-size: 2rem;
+}
+
+.secret button {
+  margin-top: 50px;
+  height: 50px;
+  width: 200px;
+  background: linear-gradient(
+    45deg,
+    rgb(96, 7, 138),
+    rgb(63, 8, 146),
+    rgb(15, 73, 181),
+    rgb(100, 129, 225),
+    rgb(14, 7, 153),
+    rgb(114, 0, 167)
+  );
+  font-size: 1.1rem;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  color: rgb(114, 235, 195);
+}
